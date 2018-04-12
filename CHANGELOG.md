@@ -2,8 +2,24 @@
 <!--LATEST=0.2.8-->
 <!--ENTRYINSERT-->
 
+##04/11/2018
+* aws-amplify - v0.2.15
+    *Enhancement: Preserve error context when loading Cognito credentials. #577
+    *Enhancement: Increase test coverage for PubSub. #588
+    *Enhancement: Fix StorageCache configure and use InMemoryCache. #635
+    *Bug Fix: Sign out fix. #511
+    *Bug Fix: Adding Polyfill.js to fix PubSub. #588
+    *Bug Fix: Ensure credentials retrieved only once on page reload. #486
+    *Bug Fix: Fix empty object returned in componentDidMount when using Auth.currentUserInfo. #608
+    *Bug Fix: Setting authData after ConfirmSignIn
+
+
+## 03/30/2018
+* amazon-cognito-identity-js - v2.0.3
+    * Bug Fix: missing es folder in npm package
+    
 ## 03/28/2018
-* aws-amplify - v0.2.13
+* aws-amplify - v0.2.14
     * Enhancement: Refreshing Federated jwt token on need. #191
     * Enhancement: Binding console to console functions #458
     * Enhancement: Customize endpoint userId and attributes #437
@@ -15,7 +31,7 @@
     * Bug Fix: Retrieving credentials only once when reloading pages #486
     * Bug Fix: Sign out fix #511
     * Bug Fix: Credentials expired case handle #528
-* aws-amplify-react - v0.1.37@beta
+* aws-amplify-react - v0.1.38
     * Enhancement: adding `onError` support for withGoogle Federated login #475
 
 ## 03/22/2018
